@@ -1,0 +1,2 @@
+C:\aaa.txt
+C:\ddd.txt
