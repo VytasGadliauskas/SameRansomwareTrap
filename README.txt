@@ -31,6 +31,15 @@ installutil WSRanTrap.exe
 if command installutil not found:
 C:\Windows\Microsoft.NET\Framework64\v4.0.30319\InstallUtil.exe WSRanTrap.exe
 
+if get error:
+C:\Program Files\WSRanTrap>C:\Windows\Microsoft.NET\Framework64\v4.0.30319\InstallUtil.exe WSRanTrap.exe
+Microsoft (R) .NET Framework Installation utility Version 4.7.3190.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+Exception occurred while initializing the installation:
+System.IO.FileLoadException: Could not load file or assembly 'file:///C:\Program Files\WSRanTrap\WSRanTrap.exe' or one of its dependencies. Operation is not supported. (Exception from HRESULT: 0x80131515).
+
+Right click on the WSRanTrap.exe properties and unblock it.
 
 --------------------------------------------------------------------
 UNINSTALL WINDOWS SERVICE: 
