@@ -25,7 +25,7 @@ is file server in base directory. Better what these files woud be first to enscr
 
 
 INSTALL WINDOWS SERVICE:
-CMD:
+CMD with Administrative rights:
 installutil WSRanTrap.exe
 
 if command installutil not found:
